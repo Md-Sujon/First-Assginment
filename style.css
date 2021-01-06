@@ -12,6 +12,8 @@ samp{
     color: salmon;
 }
 
+/* .top-all-area */
+
 .top-all{
     width: 42%;
     float: left;
@@ -36,6 +38,8 @@ a{
  font-weight: 500;
 }
 
+
+
 #lastet{
     text-align: center;
 }
@@ -44,6 +48,10 @@ h2{
     text-align: center;
     padding: 70px;
 }
+
+/* project-are */
+  
+
 .project_work{
     margin-top:200px;
     
@@ -56,7 +64,7 @@ h2{
     background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 10px 10px 40px rgba(59, 59, 59, 0.26);
+    box-shadow: 0px 0px 11px rgba(59, 59, 59, 0.26);
     
    
 }
@@ -72,15 +80,40 @@ h2{
     height: 750px;
 }
 
-.fotter{
-    position: relative;
-     height: 700px;
-     
+
+
+/* Footer area */
+
+.footer-area{
+    padding: 100px 0;
+    background-color: #fff;
+    overflow: hidden;
 }
 
-.fotter img{
-    
-    margin: 50px 300px ;
-    
-   
+.footer-top {
+    background: url(fotter.png) no-repeat;
+    height: 400px;
+    color: #fff;
+    background-size: 70%;
+    background-position: center center;
+}
+
+.footer-text h1 {
+    font-size: 50px;
+    position: relative;
+    top: 132px;
+    left: 350px;
+}
+
+.footer-text{
+    width: 50%;
+    float: left;
+}
+
+.footer-btn {
+    width: 30%;
+    position: relative;
+    top: 190px;
+    right: 30px;
+    float: right;
 }
